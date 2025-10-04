@@ -4,12 +4,12 @@ from bs4 import BeautifulSoup
 import requests
 import matplotlib.pyplot as plt
 
-headers = {
+url = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
 response = requests.get(
     "https://www.flipkart.com/search?q=face%20serum&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off",
-    headers=headers,)
+    headers=url,)
 
 soup = BeautifulSoup(response.text, "lxml")
 
