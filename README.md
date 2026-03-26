@@ -1,4 +1,4 @@
-# Web Scraping: Face Serum Prices and Ratings
+## Web Scraping: Face Serum Prices and Ratings
 
 This Python-based project scrapes data from Flipkart to analyze face serum prices and ratings. Using libraries like BeautifulSoup, Pandas, and Matplotlib, it collects product names, prices, and ratings, saves the data in a CSV file, and visualizes the price distribution in a bar chart.
 
